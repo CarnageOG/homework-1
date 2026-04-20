@@ -1,0 +1,25 @@
+.div{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
